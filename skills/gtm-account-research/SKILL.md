@@ -19,24 +19,20 @@ metadata:
 Produce an Account Intelligence Brief for a named company. Ground every signal
 in a specific, traceable source.
 
-**Load `shared/icp-segments.md`** to assign the account's ICP segment.
-
 ## Steps
 
 1. **Snapshot** — company name, HQ, size, business model, recent news (last 90 days)
-2. **Tech stack** — focus on: data warehouse (Snowflake/BQ/Databricks), CDP/identity,
-   CRM, paid channels, marketing automation. Use BuiltWith, job postings, engineering blogs.
+2. **Tech stack** — identify tools in the categories most relevant to your product
+   (e.g. data warehouse, CRM, marketing automation, paid channels). Use BuiltWith,
+   job postings, and engineering blogs as sources.
 3. **Buying signals** — job postings, conference attendance, funding events, published
-   content on data strategy. Date every signal.
-4. **Displacement triggers** — check against the list in `shared/fire-framework.md`.
-   If any trigger fires, flag ⚡ immediately.
-5. **Personas** — identify Economic Buyer (CDO/CMO/CRO), Technical Champion
-   (VP Data/Marketing Ops), and End User. Name + LinkedIn URL when findable.
-6. **Engagement angle** — one specific recommendation: what pain, which product
-   (Decision OS or Audience Loop), what channel, who reaches out first.
-
-**Load `references/stack-signals.md`** if the user asks about a specific tool,
-asks how to detect stack signals, or the company's stack is unclear.
+   strategy content. Date every signal.
+4. **Displacement triggers** — are they actively migrating off a competitor? Hiring
+   for a role that signals a gap you fill? Flag ⚡ if a strong trigger is present.
+5. **Personas** — identify Economic Buyer (budget authority), Technical Champion
+   (evaluates), and End User (daily use). Name + LinkedIn URL when findable.
+6. **Engagement angle** — one specific recommendation: what pain, which product,
+   what channel, who reaches out first, and the opening hook.
 
 ## Output
 
@@ -44,8 +40,8 @@ asks how to detect stack signals, or the company's stack is unclear.
 # Account Brief: [Company] | [Date]
 
 Snapshot: [3 sentences — what they do, size, recent context]
-ICP Segment: [#]
-Stack: [Warehouse · CDP · CRM · Paid · MA — tool or "Unknown"]
+ICP Segment: [your segment label]
+Stack: [Category: tool — or "Unknown" for each category]
 Signals: [Bulleted — signal + source + date]
 Displacement: [⚡ Yes — detail / None detected]
 Personas: [Name · Title · LinkedIn · Pain point — one row per person]

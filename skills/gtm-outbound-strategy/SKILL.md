@@ -20,13 +20,10 @@ metadata:
 Design a campaign brief and write the sequence copy. Every first touch must be
 grounded in a specific, timely signal about the recipient or their company.
 
-**Load `shared/icp-segments.md`** to identify the target segment and persona.
-
 ## Steps
 
 1. **Confirm setup** — target segment + persona, pain hypothesis, trigger signal,
-   product angle (Decision OS or Audience Loop), channel, and volume.
-   Ask if any are missing before writing.
+   product/offer, channel, and volume. Ask if any are missing before writing.
 
 2. **Build the messaging stack** (do this before writing copy):
    - **Hook**: one specific, timely observation about the recipient (job posting,
@@ -37,7 +34,6 @@ grounded in a specific, timely signal about the recipient or their company.
 
 3. **Select channel** — default: LinkedIn DM + email combo for mid-market.
    Use cold email only for high-volume segments. Use Loom for enterprise/high-ACV.
-   See `references/channel-benchmarks.md` if the user asks for expected reply rates.
 
 4. **Design the sequence** — default 5-touch, 14-day cadence:
    - Day 1: Email — hook + pain bridge + soft CTA
@@ -46,8 +42,7 @@ grounded in a specific, timely signal about the recipient or their company.
    - Day 8: LinkedIn DM (if connected) — value-add question or resource
    - Day 12: Email — honest breakup, close the loop
 
-5. **Write copy** — use the templates in `references/copy-templates.md`.
-   Load that file now if producing ready-to-send copy.
+5. **Write copy** — produce ready-to-send copy for each touch.
 
 ## Copy rules (always apply)
 - Every touch delivers standalone value — no "just checking in"
@@ -60,11 +55,12 @@ grounded in a specific, timely signal about the recipient or their company.
 ```
 # Outbound Campaign: [Segment / Persona] | [Date]
 
-Setup: Segment [#] · Persona: [Title] · Signal: [X] · Product: [X] · Channel: [X]
+Setup: Segment · Persona: [Title] · Signal: [X] · Product/Offer: [X] · Channel: [X]
 Hook: [X] | Pain Bridge: [X] | Value Wedge: [X]
 
 Sequence:
 [Day · Channel · Content summary for each touch]
 
-Copy: [Ready-to-send for each touch — load references/copy-templates.md]
+Copy:
+[Ready-to-send message for each touch]
 ```

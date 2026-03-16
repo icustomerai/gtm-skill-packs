@@ -20,9 +20,6 @@ metadata:
 Design or optimize the inbound GTM system from lead capture through conversion.
 Output is a routing model + activation/nurture sequences with explicit SLAs.
 
-**Load `shared/icp-segments.md`** to define ICP triage thresholds by segment.
-**Load `shared/fire-framework.md`** for FIRE-based lead routing logic.
-
 ## Steps
 
 1. **Classify lead sources** — assign signal strength and routing priority:
@@ -31,10 +28,11 @@ Output is a routing model + activation/nurture sequences with explicit SLAs.
    - Gated content / event → 🟡 Medium: nurture + intent watch
    - Newsletter / organic → ⚪ Low: long-play nurture
 
-2. **ICP triage** — FIRE quick-score every inbound lead within 24 hours:
+2. **ICP triage** — FIRE quick-score every inbound lead within 24 hours
+   (see `gtm-qualification-scoring` for the full rubric):
    - F ≥ 7 AND I ≥ 7 → sales-qualified, route to AE now
    - F ≥ 6, I < 6 → marketing-qualified, enter nurture + intent watch
-   - F < 6 → PLG self-serve or long-play nurture — no SDR time
+   - F < 6 → self-serve or long-play nurture — no SDR time
 
 3. **PLG activation flow** (if applicable) — define the "aha moment" first: the
    single action that predicts retention. Build the sequence to reach it in ≤ 3 steps.
@@ -48,9 +46,6 @@ Output is a routing model + activation/nurture sequences with explicit SLAs.
 
 5. **Define SLAs** — every routing rule needs a time window and an owner.
    "Route to sales" without an SLA is not a system.
-
-**Load `references/funnel-benchmarks.md`** if the user asks what conversion rates
-to expect or wants to know when to declare a problem at any funnel stage.
 
 ## Output
 

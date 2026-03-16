@@ -14,13 +14,9 @@ openclaw skills add https://github.com/icustomer/gtm-skills
 ```
 
 ### Claude Code
-Clone into your project root and Claude Code will automatically pick up `CLAUDE.md`:
+Clone into your project and Claude Code will automatically pick up `CLAUDE.md`:
 ```bash
 git clone https://github.com/icustomer/gtm-skills .claude/skills/gtm
-```
-Or add to an existing project's `CLAUDE.md`:
-```markdown
-See skills in `.claude/skills/gtm/` for GTM workflows.
 ```
 
 ---
@@ -39,27 +35,21 @@ See skills in `.claude/skills/gtm/` for GTM workflows.
 
 ---
 
-## Shared References
-
-Skills load these on demand — you never reference them directly:
-
-- **`shared/fire-framework.md`** — FIRE scoring rubric (Fit · Intent · Recency · Engagement), priority tier thresholds, and auto-escalation triggers
-- **`shared/icp-segments.md`** — 5 ICP segments, negative ICP criteria, known clients list
-
----
-
 ## FIRE Framework
 
-Every qualification and prospecting output is scored on:
+Every qualification and prospecting output is scored on four dimensions:
 
 | Dimension | What it measures | 8–10 signal |
 |---|---|---|
-| **F** Fit | ICP match: industry, size, stack, GTM model | Exact segment match, warehouse user, right buyer |
-| **I** Intent | Active buying behavior | Job posting for CDP/data role, RFP in market |
+| **F** Fit | ICP match: industry, size, stack, GTM model | Exact ICP match, right buyer present |
+| **I** Intent | Active buying behavior | Job posting for target role, RFP in market |
 | **R** Recency | Freshness of intent signals | Signal within 30 days |
 | **E** Engagement | Prior contact with your brand | Demo request, event attendance, outreach reply |
 
 **Tiers:** 🔴 P1 (8.0–10.0) · 🟡 P2 (5.0–7.9) · ⚪ P3 (1.0–4.9)
+
+The full rubric, auto-escalation triggers, and grounding rules live in
+`skills/gtm-qualification-scoring/SKILL.md`.
 
 ---
 
@@ -67,17 +57,14 @@ Every qualification and prospecting output is scored on:
 
 ```
 ├── CLAUDE.md                          # Auto-loaded by Claude Code
-├── skills/
-│   ├── gtm-account-research/SKILL.md
-│   ├── gtm-icp-definition/SKILL.md
-│   ├── gtm-inbound-strategy/SKILL.md
-│   ├── gtm-meeting-prep/SKILL.md
-│   ├── gtm-outbound-strategy/SKILL.md
-│   ├── gtm-prospecting/SKILL.md
-│   └── gtm-qualification-scoring/SKILL.md
-└── shared/
-    ├── fire-framework.md
-    └── icp-segments.md
+└── skills/
+    ├── gtm-account-research/SKILL.md
+    ├── gtm-icp-definition/SKILL.md
+    ├── gtm-inbound-strategy/SKILL.md
+    ├── gtm-meeting-prep/SKILL.md
+    ├── gtm-outbound-strategy/SKILL.md
+    ├── gtm-prospecting/SKILL.md
+    └── gtm-qualification-scoring/SKILL.md
 ```
 
 ---

@@ -20,9 +20,6 @@ metadata:
 Produce a pre-meeting brief. Tailor everything to the specific company, attendees,
 and meeting type — no generic output.
 
-**Load `shared/icp-segments.md`** to identify the account's segment and relevant
-product angle (Decision OS vs Audience Loop).
-
 ## Steps
 
 1. **Identify meeting type** — Cold Intro, Demo, POC Kick-off, Proposal, Partnership,
@@ -30,18 +27,16 @@ product angle (Decision OS vs Audience Loop).
 2. **Account context** — pull key facts: business model, size, stack, recent news.
    Reuse an existing account brief if one was run via `gtm-account-research`.
 3. **Attendee research** — for each attendee: title, seniority, LinkedIn activity,
-   tenure, likely priorities based on role. Flag any warm path.
+   tenure, likely priorities based on role. Flag any warm path (mutual connection,
+   partner network, prior engagement).
 4. **Discovery questions** — generate 5 prioritized questions. Default stack:
    open → current state → pain → success criteria → decision process.
-   Tailor to title (CDO ≠ CMO ≠ RevOps Lead).
+   Tailor to title (technical evaluator ≠ economic buyer ≠ end user).
 5. **Landmines** — flag topics to avoid: internal builds they're proud of, recent
    org changes, competitors to not name-drop without reason.
 6. **Narrative arc** — recommend a 4-act flow: Open (5min) → Discover (15–20min)
    → Show (10–15min) → Close (5min). Define the meeting "win" — rarely "close the
    deal" for a first call.
-
-**Load `references/discovery-banks.md`** if the user asks for more questions,
-needs questions for a specific role, or the meeting type is a POC or QBR.
 
 ## Output
 
@@ -49,7 +44,7 @@ needs questions for a specific role, or the meeting type is a POC or QBR.
 # Meeting Brief: [Company] — [Meeting Type] | [Date]
 
 Account: [3-sentence snapshot]
-Segment: [#] | Product angle: [Decision OS / Audience Loop]
+Segment: [ICP segment] | Product angle: [what you're positioning]
 Stack: [Relevant tools]
 Signals: [1–2 buying signals with dates]
 
