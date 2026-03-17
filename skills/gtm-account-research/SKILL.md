@@ -14,6 +14,9 @@ metadata:
   website: https://icustomer.ai
 ---
 
+> Prerequisite: `gtm-icp-definition` — provides ICP segments and personas. If not yet completed, prompt: *"Have you completed gtm-icp-definition? That step produces the ICP segments and personas this skill needs."*
+> Next: `gtm-prospecting` — build scored prospect lists from the accounts you've researched.
+
 # GTM Account Research
 
 Produce an Account Intelligence Brief for a named company. Ground every signal

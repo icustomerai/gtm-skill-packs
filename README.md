@@ -10,13 +10,13 @@ A collection of 7 go-to-market skills for Claude Code and OpenClaw. Covers the f
 
 ### OpenClaw
 ```bash
-openclaw skills add https://github.com/icustomer/gtm-skills
+openclaw skills add https://github.com/icustomerai/gtm-skill-packs
 ```
 
 ### Claude Code
 Clone into your project and Claude Code will automatically pick up `CLAUDE.md`:
 ```bash
-git clone https://github.com/icustomer/gtm-skills .claude/skills/gtm
+git clone https://github.com/icustomerai/gtm-skill-packs .claude/skills/gtm-skill-packs
 ```
 
 ---

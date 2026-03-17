@@ -12,6 +12,9 @@ metadata:
   website: https://icustomer.ai
 ---
 
+> Prerequisite: `gtm-prospecting` — provides the prioritized account and contact list to score. If not yet completed, prompt: *"Have you completed gtm-prospecting? That step produces the prospect list this skill needs."*
+> Next: *(end of core pipeline — proceed to `gtm-outbound-strategy` or `gtm-meeting-prep`)*
+
 # GTM Qualification Scoring
 
 Score each account across FIRE (Fit · Intent · Recency · Engagement), assign a
