@@ -15,6 +15,9 @@ metadata:
   website: https://icustomer.ai
 ---
 
+> Prerequisite: *(none — this is the entry point of the GTM pipeline)*
+> Next: `gtm-account-research` — research and brief the accounts that match your ICP segments.
+
 # GTM ICP Definition
 
 Facilitate a structured ICP workshop. Output is a versioned ICP document teams
